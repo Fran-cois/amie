@@ -4,7 +4,6 @@ before_install:
   - apt-get update
   - apt-get install -y git
   - apt-get install -y software-properties-common
-#  - apt-add-repository universe
   - apt-get update
   - apt-get install -y  maven
   - git clone https://github.com/lajus/amie-utils
