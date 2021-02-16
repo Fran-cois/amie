@@ -2,6 +2,7 @@ image: openjdk:8
 #-jdk-alpine3.9
 
 before_install:
+  - apt-get update
   - apt-get install -y git
   - apt-get install software-properties-common
   - apt-add-repository universe
