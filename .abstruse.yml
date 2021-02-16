@@ -8,9 +8,9 @@ before_install:
 
 install:
   - mvn clean install
-  - mvn test
 
-#script:
+script:
+  - mvn test
 #  - if [[ "$SCRIPT" ]]; then yarn run $SCRIPT; fi
 
 #cache:
