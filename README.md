@@ -8,6 +8,8 @@ AMIE can find rules in such knowledge bases, such as for example
 > wasBornIn(x, y) & isLocatedIn(y, z) => hasNationality(x, z)
 
 These rules are accompanied by various confidence scores. “AMIE” stands for “Association Rule Mining under Incomplete Evidence”. This repository contains the latest version of AMIE, called AMIE 3. The previous version of AMIE can be found [here](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/amie/). 
+## AMIE build status 
+[![Build Status](http://famat.ddns.net:3330/badge/26e8fcc1?branch=master)](http://famat.ddns.net:3330/repos/6)
 
 ## Input files
 
